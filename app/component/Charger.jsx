@@ -7,7 +7,7 @@ export default function Charger() {
                 <h1 className='flex items-center justify-center text-white font-extrabold text-4xl text-center '>চার্জার বারবার ছিঁড়ে যায়? এখনই সমাধান নিন! ⚡</h1>
                 <p className='text-white font-light mt-5'>Cable Protector ব্যবহার করলে আপনার মোবাইল চার্জার থাকবে সুরক্ষিত এবং অনেক দিন টিকবে।</p>
             </div>
-            <div className='flex items-center justify-center mt-10 gap-16'>
+            <div className='flex items-center justify-center mt-10 gap-3 flex-wrap'>
                 <div className='relative bg-white rounded-lg p-5 flex flex-col items-center gap-3'>
                     <span className="absolute top-0 left-3 bg-lime-600 text-white text-sm px-2 py-1 mt-2 rounded">বেগুনি</span>
                     <Image src="/purple.jpeg" alt="charger" width={200} height={200} />
