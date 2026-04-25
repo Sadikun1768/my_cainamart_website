@@ -1,10 +1,9 @@
-import React from 'react'
 
 export default function Order() {
   return (
-    <div className='bg-white p-10  shadow-lg text-center'>
+    <div className='bg-white p-10 shadow-lg text-center'>
       <h1 className='text-black text-4xl font-semibold  mt-10'>অর্ডার করুন</h1>
-      <div className='mx-auto mt-10 rounded-lg w-full md:w-1/2 bg-gray-100 p-6'>
+      <div className='mx-auto mt-10 rounded-lg shadow-lg w-full md:w-1/2 bg-gray-100 p-6'>
         <form>
           <div className='flex flex-col text-center gap-4 mb-4'>
             <label htmlFor="" className='text-left font-semibold text-black'>

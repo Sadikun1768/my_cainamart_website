@@ -3,11 +3,12 @@ import Image from 'next/image'
 export default function Problem() {
   return (
     <div className='bg-white py-10 px-10 mx-auto'>
-      <h1 className='text-center text-black font-extrabold text-6xl mt-5'>
+      {/* <h1 className='text-center text-black font-semibold sm:text-3xl md:text-4xl mt-5'> */}
+      <h1 className='text-center text-black font-semibold text-3xl md:text-4xl mt-5'>
         আপনার কি এই সমস্যাগুলো হয়?
       </h1>
-      <div className='mt-6 flex items-center justify-center gap-5 flex-wrap'>
-        <div className='bg-gray-100 w-fit border border-gray-300 rounded-lg py-6 px-3 mt-5'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mt-6 items-center justify-center gap-5'>
+        <div className='bg-gray-100 text-center w-full border border-gray-300 shadow-lg rounded-lg py-6 px-3 mt-5'>
            <Image
               className='align-middle mx-auto mb-4'
               src='/protection.png'
@@ -16,9 +17,9 @@ export default function Problem() {
               height={30}
             />
           <h1 className='text-black text-center text-2xl'>কেবল সুরক্ষা নেই</h1>
-          <p className='text-gray-600 text-center'>চার্জার কেবল একটু ব্যবহার করলেই ছিঁড়ে যায়</p>
+          <p className='text-gray-600 text-center text-sm'>চার্জার কেবল একটু ব্যবহার করলেই ছিঁড়ে যায়</p>
         </div>
-        <div className='bg-gray-100 text-center w-fit border border-gray-300 rounded-lg py-6 px-3 mt-5'>
+        <div className='bg-gray-100 text-center w-full border border-gray-300 shadow-lg rounded-lg py-6 px-3 mt-5'>
            <Image
               className='align-middle mx-auto mb-4'
               src="/alarm clock.png"
@@ -29,7 +30,7 @@ export default function Problem() {
           <h1 className='text-black text-center text-2xl'>দীর্ঘস্থায়ী নয়</h1>
           <p className='text-gray-600 text-center'>নতুন চার্জার বারবার কিনতে হয়</p>
         </div>
-        <div className='bg-gray-100 text-center w-fit border border-gray-300 rounded-lg py-6 px-3 mt-5'>
+        <div className='bg-gray-100 text-center w-full border border-gray-300 shadow-lg rounded-lg py-6 px-3 mt-5'>
            <Image
               className='align-middle mx-auto mb-4'
               src="/painting.png"
@@ -40,7 +41,7 @@ export default function Problem() {
           <h1 className='text-black text-center text-2xl'>ডিজাইন নষ্ট হয়ে যায়</h1>
           <p className='text-gray-600 text-center'>কেবল বাঁকলে ভেতরের তার নষ্ট হয়ে যায়</p>
         </div>
-        <div className='bg-gray-100 text-center w-fit border border-gray-300 rounded-lg py-6 px-3 mt-5'>
+        <div className='bg-gray-100 text-center w-full border border-gray-300 shadow-lg rounded-lg py-6 px-3 mt-5'>
           <Image
               className='align-middle mx-auto mb-4'
               src="/right.png"
@@ -54,9 +55,10 @@ export default function Problem() {
       </div>
 
       <div className='mt-15'>
-        <h1 className='text-center text-black font-extrabold text-6xl mt-5'>কেন ব্যবহার করবেন Cable Protector?</h1>
-        <div className='mt-6 flex text-center items-center justify-center gap-5 flex-wrap'>
-          <div className='bg-gray-100 text-center w-fit border border-gray-300 rounded-lg py-6 px-3 mt-5'>
+        <h1 className='text-center text-black font-extrabold text-3xl md:text-4xl mt-5'>কেন ব্যবহার করবেন Cable Protector?</h1>
+        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mt-6 text-center items-center justify-center gap-5'>
+          
+          <div className='bg-gray-100 text-center w-full border border-gray-300 shadow-lg rounded-lg py-6 px-3 mt-5'>
             <Image
               className='align-middle mx-auto mb-4'
               src='/protection.png'
@@ -67,7 +69,7 @@ export default function Problem() {
             <h1 className='text-black text-center text-2xl'>কেবল সুরক্ষা</h1>
             <p className='text-gray-600 text-center'>চার্জার কেবল ছিঁড়ে যাওয়া থেকে রক্ষা করে</p>
           </div>
-          <div className='bg-gray-100 text-center w-fit border border-gray-300 rounded-lg py-6 px-3 mt-5'>
+          <div className='bg-gray-100 text-center w-full border border-gray-300 shadow-lg rounded-lg py-6 px-3 mt-5'>
              <Image
               className='align-middle mx-auto mb-4'
               src="/alarm clock.png"
@@ -78,7 +80,7 @@ export default function Problem() {
             <h1 className='text-black text-center text-2xl'>দীর্ঘস্থায়ী</h1>
             <p className='text-gray-600 text-center'>কেবলকে করে আরো শক্ত ও টেকসই</p>
           </div>
-          <div className='bg-gray-100 text-center w-fit border border-gray-300 rounded-lg py-6 px-3 mt-5'>
+          <div className='bg-gray-100 text-center w-full border border-gray-300 shadow-lg rounded-lg py-6 px-3 mt-5'>
             <Image
               className='align-middle mx-auto mb-4'
               src="/painting.png"
@@ -89,7 +91,7 @@ export default function Problem() {
             <h1 className='text-black text-center text-2xl'>আকর্ষণীয় ডিজাইন</h1>
             <p className='text-gray-600 text-center'>সুন্দর কালারের জন্য কেবল দেখতেও ভালো লাগে</p>
           </div>
-          <div className='bg-gray-100 text-center w-fit border border-gray-300 rounded-lg py-6 px-3 mt-5'>
+          <div className='bg-gray-100 text-center w-full border border-gray-300 shadow-lg rounded-lg py-6 px-3 mt-5'>
             <Image
               className='align-middle mx-auto mb-4'
               src="/right.png"
