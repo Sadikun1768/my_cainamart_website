@@ -17,7 +17,7 @@ export default function Spacial() {
             </div>
             <div className='flex justify-between text-black border-2 border-red-500 rounded-full p-3 mt-3'>
                 <span>৩ সেট</span>
-                <div className=''>
+                <div className='flex items-center gap-2'>
                  <span className='bg-green-500 py-2 px-4 rounded-full'>Free Delivery</span>
                 <span className='text-red-700 font-bold'>৭৯০ টাকা</span>
                 </div>
